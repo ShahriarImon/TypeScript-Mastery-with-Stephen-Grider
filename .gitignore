@@ -1,0 +1,10 @@
+features/node_modules
+maps/node_modules
+
+features/dist
+maps/dist
+
+maps/.cache
+
+backend/.env
+frontend/.env
