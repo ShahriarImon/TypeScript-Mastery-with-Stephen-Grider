@@ -1,8 +1,17 @@
 {
   "devDependencies": {
+    "@types/google.maps": "^3.58.1",
     "typescript": "^5.8.2"
   },
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon dist/src/index.js",
+    "start": "concurrently npm:start:*"
+  },
   "dependencies": {
-    "@faker-js/faker": "^9.6.0"
+    "@faker-js/faker": "^9.6.0",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
+    "parcel-bundler": "^1.12.5"
   }
 }
