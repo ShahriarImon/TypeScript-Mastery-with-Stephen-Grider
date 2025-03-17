@@ -1,8 +1,10 @@
 features/node_modules
 maps/node_modules
+sort/node_modules
 
 features/dist
 maps/dist
+sort/dist
 
 maps/.cache
 
